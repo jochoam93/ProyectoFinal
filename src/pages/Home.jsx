@@ -19,14 +19,27 @@ export default function Home() {
 
       {/* Testimonios */}
       <section>
-        <h2 className="text-2xl font-bold mb-4">Opiniones de clientes</h2>
+        <h2 className="text-2xl font-bold mb-4">Opiniones de nuestros clientes</h2>
         <div className="space-y-4">
           <blockquote className="p-4 bg-gray-100 rounded">
-            “Compré mi iPhone y llegó en 2 días, excelente servicio.” – Ana
+            <p>“Compré mi iPhone y llegó en 2 días, excelente servicio.”</p>
+            <span class="text-yellow-400 text-2xl">★★★★★</span>
+            <p>Katherine Quispe</p>
           </blockquote>
           <blockquote className="p-4 bg-gray-100 rounded">
-            “Muy buenos precios y atención rápida.” – Carlos
+            <p>“Muy buenos precios y atención rápida.”</p>
+            <span class="text-yellow-400 text-2xl">★★★★★</span>
+            <p>Carlos Huaman</p>
+            
           </blockquote>
+          <blockquote className="p-4 bg-gray-100 rounded">
+            <p>“Excelente calidad de los productos, definitivamente volveré a comprar”</p>
+            <span class="text-yellow-400 text-2xl">★★★★★</span>  
+            <p>Cristopher Lazaro</p>  
+          </blockquote>
+
+          
+
         </div>
       </section>
     </div>

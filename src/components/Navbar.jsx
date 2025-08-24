@@ -37,11 +37,13 @@ export default function Navbar({ cartCount, user, logout }) {
             Carrito ({cartCount})
           </Link>
         )}
+
         {user && (
           <Link to="/mis-compras" className="hover:underline">
             Mis Compras
           </Link>
         )}
+        {user && (<div className="text-yellow-300 font-medium px-2 uppercase">{user.email}</div> )}
         {user ? (
           <button
             onClick={logout}

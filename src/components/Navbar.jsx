@@ -31,6 +31,7 @@ export default function Navbar({ cartCount, user, logout }) {
       {/* Links en escritorio */}
       <div className="hidden md:flex gap-4 items-center">
         <Link to="/" className="hover:underline">Home</Link>
+        
         <Link to="/catalog" className="hover:underline">Catálogo</Link>
         {user && (
           <Link to="/cart" className="hover:underline">
